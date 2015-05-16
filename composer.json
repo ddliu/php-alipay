@@ -1,0 +1,16 @@
+{
+    "name": "ddliu/alipay",
+    "description": "Alipay PHP SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dong",
+            "email": "ddliuhb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ddliu\\alipay\\": "src/"
+        }
+    }
+}
