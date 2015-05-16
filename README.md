@@ -1,5 +1,7 @@
 # php-alipay
 
+[![Travis](https://img.shields.io/travis/ddliu/php-alipay.svg?style=flat-square)](https://travis-ci.org/ddliu/php-alipay) [![Packagist](https://img.shields.io/packagist/v/ddliu/alipay.svg?style=flat-square)](https://packagist.org/packages/ddliu/alipay) [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square)]()
+
 支付宝PHP SDK
 
 ## 内容
