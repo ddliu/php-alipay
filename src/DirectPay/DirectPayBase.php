@@ -37,7 +37,7 @@ abstract class DirectPayBase {
         return array(
             'service' => $this->getOption('service'),
             'partner' => $this->getOption('partner'),
-            'paytment_type' => $this->getOption('payment_type'),
+            'payment_type' => $this->getOption('payment_type'),
             'notify_url' => $this->getOption('notify_url'),
             'seller_id' => $this->getOption('seller_id'),
             'show_url' => $this->getOption('show_url'),
@@ -57,7 +57,7 @@ abstract class DirectPayBase {
     }
 
     public function verify($data) {
-        return $this->getVerifier()->verify();
+        return $this->getVerifier()->verify($data);
     }
 
     public function verifyRequest() {
